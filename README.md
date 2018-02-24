@@ -1,2 +1,2 @@
-# vuejsbootstrap
-Vue JS Template in Bootstrap jQuery
+# caredesk-meteor-vuejs
+Meteor Vue JS Template in Bootstrap jQuery
