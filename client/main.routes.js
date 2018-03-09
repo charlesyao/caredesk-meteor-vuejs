@@ -8,30 +8,18 @@ export default [
         component: '/imports/ui/Home.vue',
     },
     {
-        path: '/page1',
-        name: 'page1',
-        component: '/imports/ui/Page1.vue',
-        // Nested routes
-        children: [
-            {
-                path: 'a',
-                name: 'page1a',
-                component: '/imports/ui/Page1A.vue',
-            },
-            {
-                path: 'b',
-                name: 'page1b',
-                component: '/imports/ui/Page1B.vue',
-            },
-        ],
+        path: '/subtickets',
+        name: 'subtickets',
+        component: '/imports/ui/SubTicket.vue',
     },
     {
-        path: '/page2',
-        name: 'page2',
-        component: '/imports/ui/Page2.vue',
+        path: '/login',
+        name: 'login',
+        component: '/imports/ui/account/Login.vue',
     },
     {
-        path: '/tickets',
-        component: '/imports/ui/SubTicket.vue'
+        path: '/register',
+        name: 'register',
+        component: '/imports/ui/account/Registration.vue',
     },
 ];

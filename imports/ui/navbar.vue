@@ -1,7 +1,7 @@
 <template>
 	<div id="navbar">
 				<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-  <router-link :to="{ name:'home' }" class="navbar-brand">CareDesk</router-link>
+  <router-link :to="{ name:'home' }" class="navbar-brand"><img src="/img/support.png" class="logo" height="42" width="42" /> CareDesk</router-link>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -12,13 +12,13 @@
         <router-link :to="{ name:'home' }" class="nav-link" exact>Home</router-link>
       </li>
       <li class="nav-item">
-        <router-link :to="{ name:'page1' }" class="nav-link" exact>Page 1</router-link>
+        <router-link :to="{ name:'login' }" class="nav-link" exact>Login</router-link>
       </li>
       <li class="nav-item">
-        <router-link :to="{ name:'page2' }" class="nav-link" exact>Page 2</router-link>
+        <router-link :to="{ name:'register' }" class="nav-link" exact>Sign Up</router-link>
       </li>
       <li class="nav-item">
-        <router-link :to="{ name:'ticket' }" class="nav-link" exact>Ticket</router-link>
+        <router-link :to="{ name:'subtickets' }" class="nav-link" exact>Submit Ticket</router-link>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

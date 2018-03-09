@@ -1,7 +1,7 @@
 <template>
     <div class="not-found">
         <div class="banner">
-            <img src="/img/droids.jpg" />
+            <img src="/img/error-404.png" />
         </div>
         <div class="hero">
             Not Found

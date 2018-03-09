@@ -1,9 +1,9 @@
 <template>
     <div class="home">
 
-        <h1>Welcome Home</h1>
-        <p>Create awesome apps with vuejs &amp; meteor! </p>
-        <img src="/img/vue.png" class="logo"/><img src="/img/meteor.png" class="logo"/>
+        <h1>Welcome CareDesk</h1>
+        <p>Better Online Support System </p>
+        <img src="/img/support.png" class="logo"/>
 
     </div>
 </template>
